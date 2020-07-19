@@ -10,7 +10,7 @@ for alien in alien_color:
     if alien == 'green':
         print("You got 5 coins!")
     else:
-        print("You got nothing!")
+        print("You got 10 coins!")
 
 for alien in alien_color:
     if alien == 'green':
