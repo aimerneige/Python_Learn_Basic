@@ -39,3 +39,22 @@ empty['dict'] = {
     ]
 }
 print(empty)
+
+# edit the value
+print(alien_0)
+alien_0['color'] = 'red'
+print(alien_0)
+
+# delete a value
+## using del
+alien_0 = {
+    'color': 'green',
+    'points': 5,
+    'needless': 'some useless message'
+}
+print(alien_0)
+del alien_0['needless']
+print(alien_0)
+"""
+After you use the del, the data will not be recovered
+"""
