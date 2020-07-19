@@ -56,5 +56,6 @@ print(list_test)
 """
 Note that if there is not only one key with the value
 the remove() will only delete the first value
+see the pets.py
 """
 
