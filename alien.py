@@ -69,7 +69,20 @@ for key, value in user_0.items():
     print("Key:\t" + key)
     print("Values:\t" + value)
 
-# just get the key
+# just get the key with keys()
 for key in user_0.keys():
     print(key)
+
+# like the keys(), you can get the value with values()
+for value in user_0.values():
+    print(value)
+
+# use set to makesure all the output will be unique
+for value in set(user_0.values()):
+    print(value)
+
+"""
+set is like a list, but it's value can't be same which means that list
+has unique elements
+"""
 
