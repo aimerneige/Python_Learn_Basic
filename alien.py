@@ -58,3 +58,18 @@ print(alien_0)
 """
 After you use the del, the data will not be recovered
 """
+
+# access all of the data in dic
+user_0 = {
+    'username': 'AimerNeige',
+    'first': 'Aimer',
+    'last': 'Neige',
+}
+for key, value in user_0.items():
+    print("Key:\t" + key)
+    print("Values:\t" + value)
+
+# just get the key
+for key in user_0.keys():
+    print(key)
+
