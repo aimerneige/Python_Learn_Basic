@@ -1,6 +1,7 @@
 dimensions = (200, 50)
 print(dimensions[0])
 print(dimensions[1])
+
 """
 Different from the list, the tuple's value is can't be changed.
 """
