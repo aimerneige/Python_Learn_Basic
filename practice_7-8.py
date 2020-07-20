@@ -7,3 +7,11 @@ while sandwich_orders:
     sandwich_finished.append(sandwich)
 print(sandwich_orders)
 print(sandwich_finished)
+
+# 7-9
+
+print("pastrami is order out")
+sandwich_orders = ['pastrami', 'aaa', 'bbb', 'pastrami', 'ccc', 'pastrami']
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+print(sandwich_orders)
