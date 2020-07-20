@@ -30,3 +30,12 @@ def change(some_list):
 some_list = ['aaa', 'data']
 change(some_list) # original list will be changed
 change(some_list[:]) # original list will not be changed
+
+def many_args(*manyargs):
+    print(manyargs)
+"""
+when you use the * python will create a new tuple
+if you do not know how many args you will get, use *
+"""
+
+many_args('aimer', 'neige', 'inory')
