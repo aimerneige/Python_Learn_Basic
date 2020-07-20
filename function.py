@@ -19,3 +19,14 @@ def describe_pet_1(pet_name, animal_type='dog'):
     print('name: ', pet_name)
 
 describe_pet_1('willie')
+
+# if you don't wants the list to be changed
+# give a copy but not a list
+
+def change(some_list):
+    """this function will changed list"""
+    some_list[0] = 'Changed' # will change the original list
+
+some_list = ['aaa', 'data']
+change(some_list) # original list will be changed
+change(some_list[:]) # original list will not be changed
