@@ -18,7 +18,7 @@ telegram: https://t.me/AimerNeige
 
 学 Python 的过程中写的一些垃圾代码
 
-我使用的书是 *《 Python 编程 从入门到实践》*
+我使用的书是 *《Python 编程 从入门到实践》*
 
 有问题的话欢迎联系我
 
