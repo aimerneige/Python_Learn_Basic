@@ -13,3 +13,8 @@ class Dog():
 my_dog = Dog("jack", 4)
 my_dog.sit()
 my_dog.roll_over()
+print(my_dog.name)
+print(my_dog.age)
+my_dog.name = 'farewell'
+print(my_dog.name.title())
+my_dog.sit()
