@@ -1,0 +1,25 @@
+{
+    "first": "hello",
+    "list": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "dic": {
+        "list": [
+            {
+                "a": true,
+                "b": false
+            },
+            {
+                "c": true,
+                "d": false
+            },
+            {
+                "e": true,
+                "f": false
+            }
+        ]
+    }
+}
