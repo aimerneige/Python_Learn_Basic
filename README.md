@@ -1,4 +1,4 @@
-# Learning Python
+# Learning Python Basic
 
 ## About
 
